@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<!-- before your module(*.nocache.js) loading  -->
+<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+<!--[if IE 7]>
+ 		<link rel="stylesheet" href="showcase/css/font-awesome-ie7.css">
+		<![endif]-->
+<!-- your module(*.nocache.js) loading  -->
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.elastic.source.js"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script type="text/javascript" src="showcase/showcase.nocache.js"></script>
+<style type="text/css">
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	margin: 40px 0px 70px;
+	text-align: center;
+}
+
+#main {
+	border: 1px solid black;
+}
+
+.draggable {
+	background: url('file.png') no-repeat left center;
+	padding-left: 20px;
+}
+
+.droppable {
+	background: url('folder.png') no-repeat left center;
+	padding-left: 20px;
+}
+
+.gwt-TreeItem-selected .gwt-Label {
+	background-color: #aca;
+}
+
+.ondragover {
+	background-color: #bdb !important;
+}
+
+.sortplaceholder {
+	border: 1px dashed #CCC;
+	background: none;
+}
+</style>
+
+<style>
+#sortable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+}
+
+#sortable li {
+	margin: 0 5px 5px 5px;
+	padding: 5px;
+	font-size: 1.2em;
+	height: 1.5em;
+}
+
+html>body #sortable li {
+	height: 1.5em;
+	line-height: 1.2em;
+}
+</style>
+</head>
+<body>
+	<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1'
+		style="position: absolute; width: 0; height: 0; border: 0"></iframe>
+	<noscript>
+		<div>Your web browser must have JavaScript enabled in order for
+			this application to display correctly.</div>
+	</noscript>
+</body>
+</html>

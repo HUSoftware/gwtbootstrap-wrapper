@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module rename-to='showcase'>
+	<inherits name='org.gwtbootstrap3.GwtBootstrap3' />
+
+	<inherits name='org.gwtbootstrap3.extras.datetimepicker.DateTimePicker' />
+
+	<inherits name='org.gwtbootstrap3.extras.typeahead.Typeahead' />
+
+	<inherits name='org.gwtbootstrap3.extras.select.Select' />
+
+	<inherits name='org.gwtbootstrap3.extras.growl.Growl' />
+
+	<inherits name='org.gwtbootstrap3.extras.animate.Animate'/>
+
+	<entry-point class='net.husoftware.client.Showcase' />
+
+	<set-configuration-property name='UiBinder.useSafeHtmlTemplates' value='true' />
+
+	<source path='client' />
+
+	<add-linker name='std' />
+</module>
