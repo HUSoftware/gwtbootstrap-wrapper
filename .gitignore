@@ -3,3 +3,7 @@
 /.classpath
 /.project
 /.DS_Store
+
+*.releaseBackup
+
+release.properties
