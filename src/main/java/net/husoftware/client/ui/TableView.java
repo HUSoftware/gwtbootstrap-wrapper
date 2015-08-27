@@ -245,7 +245,7 @@ public class TableView extends AbstractView implements TableDisplay
         {
           update : function(event, ui)
           {
-            that.@vanderbilt.mc.style.client.ui.TableView::updated()();
+            that.@net.husoftware.client.ui.TableView::updated()();
           }
         });
   }-*/;
