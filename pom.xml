@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.husoftware</groupId>
 	<artifactId>gwtbootstrap-wrapper</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<testSourceDirectory>src/test/java</testSourceDirectory>
@@ -22,6 +22,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<scm>
+		<connection>scm:git:git@github.com:simeonhearring/gwtbootstrap-wrapper.git</connection>
+		<url>scm:git:git@github.com:simeonhearring/gwtbootstrap-wrapper.git</url>
+		<developerConnection>scm:git:git@github.com:simeonhearring/gwtbootstrap-wrapper.git</developerConnection>
+	  <tag>HEAD</tag>
+  </scm>
 	<dependencies>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
