@@ -1,1 +1,17 @@
+mvn release:prepare
+
 mvn install:install-file -DgroupId=net.husoftware -DartifactId=gwtbootstrap-wrapper -Dversion=1.0.0 -Dpackaging=jar -Dfile=/Users/simeonhearring/workspace/gwtbootstrap-wrapper/target/gwtbootstrap-wrapper-1.0.0.jar -DlocalRepositoryPath=/Users/simeonhearring/workspace/maven-repo
+
+mvn install:install-file -DgroupId=net.husoftware -DartifactId=gwtbootstrap-wrapper -Dversion=1.0.0 -Dpackaging=jar -Dfile=/Users/simeonhearring/workspace/gwtbootstrap-wrapper/target/gwtbootstrap-wrapper-1.0.0.jar -DlocalRepositoryPath=/Users/simeonhearring/.m2/repository/
+
+<repository>
+    <id>git-simeonhearring</id>
+    <name>simeonhearring's Git based repo</name>
+    <url>https://github.com/simeonhearring/maven-repo/raw/master/</url>
+</repository>
+
+<dependency>
+    <groupId>net.husoftware</groupId>
+    <artifactId>gwtbootstrap-wrapper</artifactId>
+    <version>1.0.0</version>
+</dependency>
