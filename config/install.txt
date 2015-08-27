@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId=net.husoftware -DartifactId=gwtbootstrap-wrapper -Dversion=1.0.0 -Dpackaging=jar -Dfile=/Users/simeonhearring/workspace/gwtbootstrap-wrapper/target/gwtbootstrap-wrapper-1.0.0.jar -DlocalRepositoryPath=/Users/simeonhearring/workspace/maven-repo
